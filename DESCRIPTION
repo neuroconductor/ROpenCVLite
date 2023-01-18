@@ -3,31 +3,31 @@ Type: Package
 Title: Helper Package for Installing OpenCV with R
 Version: 4.51.0
 Date: 2021-03-21
-Authors@R: c(
-    person("Simon", "Garnier", email = "garnier@njit.edu", role = c("aut", "cre"),
-      comment = c(ORCID = "0000-0002-3886-3974")),
-    person("Muschelli", "John", email = "muschellij2@gmail.com", role = c("ctb"))
-  )
+Authors@R: c( person("Simon", "Garnier", email = "garnier@njit.edu",
+        role = c("aut", "cre"), comment = c(ORCID =
+        "0000-0002-3886-3974")), person("Muschelli", "John", email =
+        "muschellij2@gmail.com", role = c("ctb")) )
 Maintainer: Simon Garnier <garnier@njit.edu>
-Description: Installs 'OpenCV' for use by other packages. 'OpenCV' <https://opencv.org/> 
-    is library of programming functions mainly aimed at real-time computer 
-    vision. This 'Lite' version contains the stable base version of 'OpenCV' and 
-    does not contain any of its externally contributed modules.
+Description: Installs 'OpenCV' for use by other packages. 'OpenCV'
+        <https://opencv.org/> is library of programming functions
+        mainly aimed at real-time computer vision. This 'Lite' version
+        contains the stable base version of 'OpenCV' and does not
+        contain any of its externally contributed modules.
 License: GPL-3
 LazyData: TRUE
-Imports:
-    utils,
-    pkgbuild,
-    parallel
-SystemRequirements: 
-  cmake,
-  C++11
+Imports: utils, pkgbuild, parallel
+SystemRequirements: cmake, C++11
 RoxygenNote: 7.1.1
 Biarch: true
 Encoding: UTF-8
 Suggests: 
+    testthat,
+    covr,
     knitr,
     rmarkdown
 VignetteBuilder: knitr
-URL: https://swarm-lab.github.io/ROpenCVLite/, https://github.com/swarm-lab/ROpenCVLite
+URL: https://swarm-lab.github.io/ROpenCVLite/,
+        https://github.com/swarm-lab/ROpenCVLite
 BugReports: https://github.com/swarm-lab/ROpenCVLite/issues
+Repository: Neuroconductor
+biocViews: 

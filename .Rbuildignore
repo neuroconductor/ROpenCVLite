@@ -10,3 +10,7 @@ old
 cran-comments.md
 ^CRAN-RELEASE$
 ^\.github$
+^DESCRIPTION\.bak$
+^autoci\.yml$
+^autoci_pkgdown\.yml$
+^tic\.R$
