@@ -16,3 +16,7 @@ revdep
 ^docs$
 ^pkgdown$
 ^codecov\.yml$
+^DESCRIPTION\.bak$
+^autoci\.yml$
+^autoci_pkgdown\.yml$
+^tic\.R$
